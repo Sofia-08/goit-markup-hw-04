@@ -951,7 +951,7 @@ img {
 
 @media only screen and (min-width: 768px) {
   .footer-form-filed {
-    min-width: 264px;
+    width: 264px;
   }
 }
 
@@ -1318,8 +1318,21 @@ img {
   margin-bottom: 24px;
 }
 .mobile-menu-contacts-link {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #434455;
 }
+
+.mobile-menu .accent-text {
+  color: #4d5ae5;
+}
+
 .socials-list {
+}
+
+.mobile-menu .socials-list {
+  gap: 40px;
 }
 .socials-item {
 }
